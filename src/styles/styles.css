@@ -1,0 +1,27 @@
+body > div:first-child {
+	overflow-x: hidden;
+}
+
+
+
+#nav-title {
+	margin-top: 25px !important;
+}
+
+.email {
+	width: 16px !important;
+	height: 16px !important;
+	margin: 3px;
+}
+
+.title-icon {
+	width: 28px;
+	height: 28px;
+}
+
+.details {
+	font-size: 0.875rem;
+	font-weight: 300;
+	margin-top: 0.25rem;
+}
+

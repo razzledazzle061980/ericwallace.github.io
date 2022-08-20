@@ -1,0 +1,57 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "description": "Software Developer Portfolio Template built with react bootstrap that helps you showcase my portfolio",
+  "homepage": "https://ericwallace.github.io",
+  "private": false,
+  "author": "Eric Wallace",
+  "repository": "https://github.com/razzledazzle061980/ericwallace.github.io",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/client": "^3.7.9",
+    "@iconify/react": "^4.1.0",
+    "bootstrap": "^5.2.3",
+    "caniuse-lite": "^1.0.30001457",
+    "classnames": "^2.3.2",
+    "graphql": "^16.6.0",
+    "headroom.js": "^0.12.0",
+    "lottie-react": "^2.4.0",
+    "moment": "^2.29.4",
+    "nouislider": "^15.7.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-datetime": "^3.2.0",
+    "react-dom": "^18.2.0",
+    "react-easy-emoji": "^1.8.1",
+    "react-headroom": "^3.2.1",
+    "react-lottie": "^1.2.3",
+    "react-reveal": "^1.2.2",
+    "react-scripts": "^5.0.1",
+    "react-typist": "^2.0.5",
+    "reactstrap": "^9.1.6",
+    "sharp": "^0.31.3"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
